@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Форма регистрации сайта</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h2>Пример формы регистрации сайта</h2>
+  </header>
+  <main>
+    <div class="form2">
+      <form id="registrationForm" action="your-server-script.php" method="post">
+
+        <label for="login">Логин</label><br>
+        <input type="text" name="login" id="login" placeholder="Введите логин" maxlength="30" required><br>
+
+        <label for="password">Пароль</label><br>
+        <input type="password" name="password" id="password" placeholder="Введите пароль" required><br>
+
+        <label for="url">URL-адрес сайта:</label><br>
+        <input type="url" name="url" id="url" placeholder="https://" required><br>
+
+        <label for="site-name">Введите название сайта:</label><br>
+        <input type="text" name="site-name" id="site-name" maxlength="30" required><br>
+
+        <label for="description">Описание сайта</label><br>
+        <textarea name="description" id="description" rows="7" cols="60" required></textarea><br>
+
+        <label for="theme">Тема сайта</label><br>
+        <select name="theme" id="theme" required>
+          <option value="no-theme">Тема не выбрана</option>
+          <option value="online-store">Интернет-магазин</option>
+          <option value="directory">Справочник</option>
+        </select><br>
+
+        <label for="banner">Баннер 88x30</label><br>
+        <input type="file" name="banner" id="banner" accept="image/*"><br><br>
+
+        <input type="reset" value="Очистить">
+        <input type="submit" value="Отправить">
+
+      </form>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

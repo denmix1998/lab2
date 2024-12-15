@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Форма заказа продукции</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h2>ЗАО Птицефабрика №1</h2>
+  </header>
+  <main>
+    <div class="form1">
+      <form id="orderForm" action="" method="post">
+        <label for="surname">Фамилия</label><br>
+        <input type="text" name="surname" id="surname" maxlength="15" required><br>
+
+        <label for="initials">Инициалы</label><br>
+        <input type="text" name="initials" id="initials" maxlength="15" required><br>
+
+        <label for="password">Пароль</label><br>
+        <input type="password" name="password" id="password" required><br>
+
+        <label for="email">Адрес получателя</label><br>
+        <input type="email" name="email" id="email" required><br>
+
+        <label for="quantity">Количество</label><br>
+        <input type="number" name="quantity" id="quantity" required><br>
+
+        <label for="meat-type">Тип</label><br>
+        <select name="meat-type" id="meat-type" required>
+          <option value="chicken">Куриные</option>
+          <option value="pork">Свинные</option>
+          <option value="beef">Говяжьи</option>
+        </select><br><br>
+
+        <label for="quality">Качество</label><br>
+        <select name="quality" id="quality" required>
+          <option value="premium">Отборные</option>
+          <option value="non-premium">Не отборные</option>
+        </select><br><br>
+
+        <label>Доставка</label><br>
+        <input type="radio" name="delivery" value="mail" id="mail"><label for="mail">Почтой</label><br>
+        <input type="radio" name="delivery" value="electronic" id="electronic"><label for="electronic">Электронно</label><br>
+        <input type="radio" name="delivery" value="courier" id="courier"><label for="courier">Курьером</label><br><br>
+
+        <label for="invoice">Требуется накладная</label>
+        <input type="checkbox" name="invoice" id="invoice"><br><br>
+
+        <label for="additional-info">Дополнительная информация</label><br>
+        <textarea name="additional-info" id="additional-info" rows="3" cols="50"></textarea><br><br>
+
+        <input type="submit" value="Заказать">
+        <input type="reset" value="Отменить">
+      </form>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

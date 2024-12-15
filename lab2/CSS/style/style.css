@@ -1,0 +1,177 @@
+.container {
+    width: 480px;
+    margin: 0 auto;
+}
+
+.h2_first {
+    text-align: center;
+    color: blue;
+}
+
+#title_A {
+    letter-spacing: 5px;
+}
+
+
+.p1 {
+    text-indent: 30px;
+}
+
+#p1_a {
+    background-color: cyan;
+}
+
+#p1_b {
+    font-weight: bold;
+}
+
+#p1_c {
+    font-size: 22px;
+    font-style: italic;
+}
+
+
+.p2 {
+    text-align: right;
+}
+
+#p2_a {
+    background-color: yellow;
+    text-decoration: underline;
+}
+
+#p2_b {
+    background-color: grey;
+    font-size: 14px;
+}
+
+
+.h3_first {
+    color: #800080;
+}
+
+
+.p3 {
+    font-size: 14px;
+}
+
+#p3_a {
+    background-color: #ff00ff;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#p3_b {
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+#p3_c {
+    text-decoration: underline;
+    font-size: 16px;
+}
+
+
+.p4 {
+    text-align: center;
+    font-size: 17px;
+}
+
+#p4_a {
+    text-decoration: underline;
+    color: blue;
+}
+
+#p4_b {
+    font-size: 20px;
+}
+
+
+
+.p5 {
+    text-align: center;
+}
+
+#p5_a {
+    background-color: #c0c0c0;
+}
+
+#p5_b {
+    color: blue;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#p5_c {
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+.p6 {
+    text-align: center;
+    color: blue;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: line-through;
+}
+
+
+.table1 {
+    width: 100%;
+    font-size: 13px;
+    text-align: center;
+    font-weight: bold;
+}
+
+th, td {
+    line-height: 1.2;
+    padding: 1px;
+}
+
+#field1 {
+    text-align: left;
+    font-style: italic;
+}
+
+#content1 {
+    text-align: left;
+    color: blue;
+}
+
+#field2 {
+    background-color: black;
+    color: white;
+}
+
+#field3 {
+    text-align: right;
+    background-color: cyan;
+    color: blue;
+}
+
+#content3 {
+    text-align: right;
+    color: blue;
+}
+
+#field4 {
+    background-color: #ff99cc;
+    text-decoration: underline;
+    text-align: left;
+}
+
+#content4 {
+    text-align: left;
+}
+
+#field5{
+    background-color: yellow;
+    letter-spacing: 3px;
+}
+
+#content5{
+    color: blue;
+}

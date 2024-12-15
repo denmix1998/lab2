@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторная №2 CSS</title>
+    <link rel="stylesheet" href="style/style.css">
+
+    <!--внешний style-->
+    <style>
+        .h4_first {
+            text-align: right;
+            font-size: 14px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <h2 class="h2_first"><span id="title_A">Таблицы</span> в HTML</h2>
+
+        <p class="p1">
+            <span id="p1_a">Одним из мощных и широко применяемых в <span id="p1_b">HTML</span> средств <br>
+                являются <span id="p1_c">таблицы.</span></span>
+        </p>
+
+        <p class="p2">
+            <span id="p2_a">Понятие табличного представления данных не нуждается в дополнительном пояснении.</span>
+            <span id="p2_b">В HTML
+                таблицы используются не только традиционно, как метод представления данных, но и как средство
+                форматирования Web-страниц.</span>
+        </p>
+
+        <!--inline-->
+        <h3 style="color: #800080;">Создание простейших HTML-страниц</h3>
+
+        <p class="p3">
+            <span id="p3_a">Описание</span> <span id="p3_b">таблиц</span> <span id="p3_c">должно</span> располагаться
+            внутри раздела документа &lt;BODY&gt;.
+        </p>
+
+        <p class="p4">
+            Каждая <span id="p4_a">таблица</span> должна <span id="p4_b">начинаться</span> тэгом &lt;TABLE&gt; и
+            завершаться тэгом &lt;/TABLE&gt;.
+        </p>
+
+        <p class="p5">
+            <span id="p5_a"><span id="p5_b">Каждая</span> строка начинается тэгом &lt;TR&gt; (Table Row) и завершается
+                тэгом &lt;/TR&gt;. <span id="p5_c">Отдельная</span> ячейка в
+                строке обрамляется
+                парой тэгов &lt;TD&gt; и &lt;/TD&gt; (Table Data) или &lt;TH&gt; и &lt;/TH&gt; (Table Header)
+            </span>
+        </p>
+
+        <h4 class="h4_first">Таблица 1</h4>
+
+        <p class="p6">Математические выражения</p>
+        <table border="1" class="table1">
+            <tr>
+                <th id="field1">Поле 1</th>
+                <th id="field2">Поле 2</th>
+                <th id="field3">Поле 3</th>
+                <th id="field4">Поле 4</th>
+                <th id="field5">Поле5</th>
+            </tr>
+            <tr>
+                <td id="content1">(a+b)<sup>2</sup></td>
+                <td id="content2">a<sup>2</sup>-b<sup>2</sup></td>
+                <td id="content3">(a-b)<sup>3</sup></td>
+                <td id="content4">A<sub>1</sub>+A<sub>2</sub>+...A<sub>i</sub></td>
+                <td id="content5">y=x<sup>2</sup></td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>

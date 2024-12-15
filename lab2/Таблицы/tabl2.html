@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблица</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+            height: 50px;
+        }
+        .empty {
+            width: 100px;
+        }
+        .bgcolor1 {
+            background-color: #00CED1; /* Голубой */
+        }
+        .bgcolor2 {
+            background-color: #FAFAD2; /* Кремовый */
+        }
+        .bgcolor3 {
+            background-color: red;
+        }
+        .bgcolor4 {
+            background-color: blue;
+        }
+        .bgcolor5 {
+            background-color: green;
+        }
+        .bgcolor6 {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+
+      <table class="table2">
+        <caption>Таблица B</caption>
+        <tr>
+          <td colspan="8" class="bgcolor1"></td>
+        </tr>
+        <tr>
+          <td rowspan="6" class="bgcolor2"></td>
+          <td colspan="6" class="bgcolor1"></td>
+          <td rowspan="6" class="bgcolor2"></td>
+        </tr>
+        <tr>
+          <td rowspan="4" class="bgcolor2"></td>
+          <td colspan="4" class="bgcolor1"></td>
+          <td rowspan="4" class="bgcolor2"></td>
+        </tr>
+        <tr>
+          <td rowspan="2" class="bgcolor2"></td>
+          <td class="bgcolor3"></td>
+          <td class="bgcolor4"></td>
+          <td rowspan="2" class="bgcolor2"></td>
+        </tr>
+        <tr>
+          <td class="bgcolor5"></td>
+          <td class="bgcolor6"></td>
+        </tr>
+        <tr>
+          <td colspan="4" class="bgcolor1"></td>
+        </tr>
+        <tr>
+          <td colspan="6" class="bgcolor1"></td>
+        </tr>
+        <tr>
+          <td colspan="8" class="bgcolor1"></td>
+        </tr>
+      </table>
+
+</body>
+</html>
+
